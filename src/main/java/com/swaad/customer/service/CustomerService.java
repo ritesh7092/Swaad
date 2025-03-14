@@ -12,7 +12,7 @@ import java.util.Optional;
 
 
 @Service
-public class CustomerService implements ICustomer{
+public class CustomerService implements CustomerInterface{
 
 	@Autowired
 	CustomerDao customerDao;
